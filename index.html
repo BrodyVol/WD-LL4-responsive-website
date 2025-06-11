@@ -1,16 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <title>LiveLab 4 Demo</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Sustainable Travel</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  Hello world
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Destinations</a></li>
+      <li><a href="#">Tips</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Explore Sustainable Destinations</h1>
+      <p>Discover eco-friendly places and travel tips to help you protect the planet while you explore it.</p>
+      <a href="#" class="cta-button">Start Your Journey</a>
+    </div>
+    <div class="hero-image">
+      <!-- Example stock photo, you can replace the URL with your own image -->
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+        alt="Beautiful sustainable travel destination">
+    </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section class="destinations">
+    <h2>Eco-Friendly Destinations</h2>
+    <div class="cards">
+      <!-- Card 1: Costa Rica -->
+      <!-- The whole card is wrapped in an <a> tag so users can click anywhere on the card -->
+      <a href="https://en.wikipedia.org/wiki/Costa_Rica" class="card" target="_blank">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Costa Rica Rainforest">
+        <h3>Costa Rica</h3>
+        <p>Famous for its rainforests and wildlife, Costa Rica is a leader in eco-tourism and conservation.</p>
+      </a>
+      <!-- Card 2: Norwegian Fjords -->
+      <a href="https://en.wikipedia.org/wiki/Fjords_of_Norway" class="card" target="_blank">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="Norwegian Fjords">
+        <h3>Norwegian Fjords</h3>
+        <p>Enjoy breathtaking views and sustainable travel options in Norway's pristine fjord regions.</p>
+      </a>
+      <!-- Card 3: New Zealand -->
+      <a href="https://en.wikipedia.org/wiki/New_Zealand" class="card" target="_blank">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="New Zealand Mountains">
+        <h3>New Zealand</h3>
+        <p>New Zealand offers eco-friendly adventures and stunning natural landscapes for every traveler.</p>
+      </a>
+    </div>
+  </section>
+
   <script src="script.js"></script>
 </body>
-
 </html>
